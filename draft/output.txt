@@ -1,0 +1,90 @@
+id,Project,Size in U,Units,Coût Total (USD),Is_Commercial,Incl_Launch,Année (Launch),Mission_Type,Complexity_Score,Orbit_Type
+0,AeroCube-15,3,1,"4,1",0,1,2022,Technology Demo,1.3,LEO
+1,AISTECHSAT (DANU) 2U,2,1,"0,23",1,0,2019,Earth Observation,1.2,SSO
+2,Amber,6,2,"5,75",1,1,2024,Communications,1.3,SSO
+3,IOD Mission 3,6,4,"2,145",1,0,2023,Technology Demo,1.1,LEO
+4,BlackCAT,6,1,"5,8",1,0,2024,Science/Astronomy,2.0,LEO
+5,BRO,6,6,"4,2",1,0,2019,Military/Defense,1.5,SSO
+6,Buccaneer,6,1,"2,5",1,0,2017,Military/Defense,1.4,LEO
+7,CTOS,8,1,"2,5",0,0,2024,Earth Observation,1.4,SSO
+8,CatSat,6,1,"0,45",0,0,2024,Technology Demo,1.5,SSO
+9,Exoterra CubeSat,12,1,2,0,0,2024,Technology Demo,1.6,LEO
+10,CUTE,6,1,"5,5",0,1,2021,Science/Astronomy,2.2,LEO
+11,DAILI,6,1,"3,2",0,0,2022,Science/Astronomy,1.5,LEO
+12,AISTECHSAT (DANU) 2U,2,10,"1,57",1,0,2021,Earth Observation,1.2,SSO
+13,Deorbitsail,3,1,"3,2",1,1,2015,Technology Demo,1.4,LEO
+14,Diamond 6U (Sky and Space Global),6,8,"5,95",1,0,2019,Communications,1.3,LEO
+15,DOVER,3,1,,1,0,2023,Technology Demo,1.2,SSO
+16,DUPLEX,6,1,"1,7",1,0,2023,Technology Demo,1.2,LEO
+17,E.T.PACK DMM & EEM,12,1,"5,5",0,0,2024,Technology Demo,1.6,LEO
+18,Edison,8,1,"0,96",1,1,2024,Technology Demo,1.2,SSO
+19,EIRSAT-1,2,1,"1,5",0,0,2023,Science/Astronomy,1.4,LEO
+20,EPICHyper,6,2,"12,1",1,0,2024,Earth Observation,1.8,SSO
+21,ET-SMART-RSS,6,1,"1,5",1,0,2020,Earth Observation,1.3,SSO
+22,FACSAT,6,1,"0,77",1,0,2018,Earth Observation,1.3,SSO
+23,Faraday-1,6,1,"6,664",0,0,2020,Technology Demo,1.2,LEO
+24,GEMS (Orbital Micro Systems),6,1,"0,785",1,0,2019,Earth Observation,1.4,SSO
+25,GOMX-5,8,1,2,1,0,2024,Technology Demo,1.5,LEO
+26,HAMMER (IOD6),6,1,"4,08",1,0,2024,Earth Observation,1.8,SSO
+27,Hellenic Space Dawn,8,1,"4,28",0,0,2026,Earth Observation,1.5,SSO
+28,HERMES-SP,3,6,"3,95",0,1,2025,Science/Astronomy,2.1,LEO
+29,Hyperion 1,12,1,"3,85",1,0,2023,Earth Observation,1.8,SSO
+30,Infante,16,1,10,0,0,2018,Earth Observation,1.6,SSO
+31,InspireSAT,12,1,"2,15",0,0,2022,Science/Astronomy,1.6,LEO
+32,Intuition-1,6,1,"1,85",1,1,2023,Earth Observation,1.9,SSO
+33,Io-1,4,1,"2,5",1,1,2026,Science/Astronomy,1.4,LEO
+34,Startical,16,3,"15,66",1,1,2025,Communications,1.6,LEO
+35,GEMS (Orbital Micro Systems),3,4,"1,88",1,0,2019,Earth Observation,1.3,SSO
+36,IonSat,6,1,"1,624",0,1,2024,Technology Demo,1.7,LEO
+37,Juventas,6,1,13,1,0,2024,Deep Space,3.5,Deep Space
+38,Kelpie,3,2,"5,9",1,1,2023,Communications,1.2,SSO
+39,TARS (Kepler),6,1,"0,88",1,1,2022,Communications,1.3,SSO
+40,Kleos Space - Polar Vigilance Mission (KSF1),6,4,"2,5",1,0,2021,Military/Defense,1.6,SSO
+41,Kleos Scouting Mission (KSM1),6,4,"2,83",1,0,2019,Military/Defense,1.6,LEO
+42,KSS-BOBCAT,6,1,"1,6",1,0,2022,Technology Demo,1.2,LEO
+43,KuwaitSat- 1,2,1,"0,97",1,0,2023,Earth Observation,1.2,SSO
+44,LLITED,1.5,2,"2,52",0,1,2022,Science/Astronomy,1.4,LEO
+45,Lusiada (LusoSpace),8,11,"5,37",0,0,2024,Communications,1.4,LEO
+46,M-ARGO,12,1,"0,45",1,0,2024,Deep Space,3.2,Deep Space
+47,MACSAT,6,1,"2,4",1,0,2023,Communications,1.2,LEO
+48,MANTIS (US),16,1,"8,5",0,0,2024,Earth Observation,1.6,SSO
+49,MarCO,6,2,"18,5",0,1,2018,Deep Space,3.5,Deep Space
+50,MH-1 (AEROS),3,1,"3,02",1,0,2024,Earth Observation,1.3,SSO
+51,MIR-SAT1,1,1,"0,405",1,1,2021,Technology Demo,1.0,LEO
+52,MOBIUS,3,1,"2,8",0,0,2024,Technology Demo,1.2,LEO
+53,NanoMagSat,16,1,"37,37",1,0,2026,Science/Astronomy,1.9,LEO
+54,NARSSCube-2,1,1,"0,06",0,0,2019,Earth Observation,1.1,SSO
+55,NEPTUNO,3,1,"2,8",0,1,2024,Earth Observation,1.3,LEO
+56,NSLSat,6,1,"1,5",1,1,2019,Communications,1.6,LEO
+57,OPS-SAT,3,1,"2,66",0,0,2019,Technology Demo,1.5,LEO
+58,OPS-SAT VOLT,16,1,"2,5",1,0,2025,Technology Demo,2.2,LEO
+59,ORCA-8,6,1,"4,5",0,0,2024,Technology Demo,1.3,LEO
+60,Outernet 1U,1,3,"1,25",1,0,2017,Communications,1.1,LEO
+61,PEARLS (Sky and Space Global),8,8,"5,95",1,0,2025,Communications,1.4,SSO
+62,Phasma,3,1,"2,16",0,0,2024,Military/Defense,1.4,LEO
+63,PIAST,6,1,18,1,0,2024,Military/Defense,1.7,SSO
+64,PIXL-1,3,1,"0,56",1,0,2021,Technology Demo,1.9,SSO
+65,PolSIR,12,1,37,1,0,2024,Science/Astronomy,2.3,LEO
+66,PREFIRE,6,1,33,0,0,2024,Science/Astronomy,2.2,SSO
+67,RACE (ESA),6,2,"0,45",1,0,2024,Technology Demo,1.8,LEO
+68,SCOUT-1 (EPS-MACCS),12,1,"25,92",1,0,2023,Science/Astronomy,1.8,LEO
+69,SeaHawk,3,2,"1,68",1,0,2018,Earth Observation,1.5,SSO
+70,SEAM,3,1,3,1,1,2017,Science/Astronomy,1.5,SSO
+71,SOAR,3,1,"6,15",1,0,2021,Science/Astronomy,1.4,LEO
+72,SpIRIT,6,1,"4,76",1,0,2023,Science/Astronomy,1.8,SSO
+73,SPRITE,12,1,4,0,0,2024,Science/Astronomy,2.1,LEO
+74,SROC,12,1,"4,7",1,0,2024,Technology Demo,2.5,LEO
+75,SULIS,12,1,105,0,1,2025,Science/Astronomy,2.6,Deep Space
+76,SunRISE,6,6,"62,6",0,1,2025,Deep Space,3.2,GEO
+77,SWARM-EX,3,3,4,0,0,2024,Science/Astronomy,1.9,LEO
+78,TEMPEST-D,6,1,"8,2",1,0,2018,Earth Observation,1.6,LEO
+79,Tiger-2,6,1,"2,4",1,0,2021,Communications,1.4,LEO
+80,Tiger-4,6,1,"2,4",1,0,2022,Communications,1.4,LEO
+81,Tiger-7,6,1,"2,4",1,0,2023,Communications,1.4,LEO
+82,Tiger-8,6,1,"2,4",1,0,2023,Communications,1.4,LEO
+83,UKube-1,3,1,1,1,0,2014,Technology Demo,1.2,LEO
+84,VPM,6,1,"4,5",0,1,2020,Science/Astronomy,1.5,LEO
+85,WindCube,6,1,"6,5",0,0,2024,Earth Observation,1.5,SSO
+86,xSPANCION,6,1,"12,1",1,0,2024,Technology Demo,1.5,LEO
+87,XVI,12,1,10,1,1,2024,Military/Defense,1.8,LEO
+88,Ymir,3,1,"1,94",1,0,2023,Technology Demo,1.3,LEO

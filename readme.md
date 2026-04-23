@@ -84,7 +84,7 @@ A **Bayesian log-normal regression model** is used to estimate mission cost.
 
 ### 🔹 Model formulation
 
-<img src="https://latex.codecogs.com/svg.image?\ln(\text{Cost}) = \alpha_{\text{orbit}} + \beta_{\text{size}} \cdot \text{Size} + \beta_{\text{complexity}} \cdot \text{Complexity} + \beta_{\text{commercial}} \cdot \text{Commercial} + \beta_{\text{year}} \cdot \text{Year} + \epsilon" /> 
+<img src="https://latex.codecogs.com/png.image?\ln(\text{Cost}) = \alpha_{\text{orbit}} + \beta_{\text{size}} \cdot \text{Size} + \beta_{\text{complexity}} \cdot \text{Complexity} + \beta_{\text{commercial}} \cdot \text{Commercial} + \beta_{\text{year}} \cdot \text{Year} + \epsilon" width="800"/> 
 
 ### 🔹 Why this model?
 

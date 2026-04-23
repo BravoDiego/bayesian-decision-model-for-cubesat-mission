@@ -262,7 +262,7 @@ All data, code, and analysis are available in this repository.
 
 ---
 
-## 📚 16. References (APA 7.0)
+## 📚 16. References
 
 European Space Agency. (2023). *CubeSat missions and cost analysis*. ESA Publications.
 
@@ -272,7 +272,7 @@ Swartwout, M. (2013). The first one hundred CubeSats: A statistical look. *Journ
 
 NASA. (2020). *Small spacecraft cost estimation handbook*. NASA Technical Reports.
 
-Fortescue, P., Swinerd, G., & Stark, J. (2011). *Spacecraft systems engineering* (4th ed.). Wiley.
+Kulu, Erik. « CubeSat Tables ». Nanosats Database, https://www.nanosats.eu/tables.html. Accessed on April 23, 2026.
 
 ---
 

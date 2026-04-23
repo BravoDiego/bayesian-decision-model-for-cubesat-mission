@@ -88,6 +88,8 @@ A **Bayesian log-normal regression model** is used to estimate mission cost.
 \ln(\text{Cost}) = \alpha_{\text{orbit}} + \beta_{\text{size}} \cdot \text{Size} + \beta_{\text{complexity}} \cdot \text{Complexity} + \beta_{\text{commercial}} \cdot \text{Commercial} + \beta_{\text{year}} \cdot \text{Year} + \epsilon
 \]
 
+<img src="https://latex.codecogs.com/gif.latex?\ln(\text{Cost}) = \alpha_{\text{orbit}} + \beta_{\text{size}} \cdot \text{Size} + \beta_{\text{complexity}} \cdot \text{Complexity} + \beta_{\text{commercial}} \cdot \text{Commercial} + \beta_{\text{year}} \cdot \text{Year} + \epsilon" /> 
+
 ### 🔹 Why this model?
 
 - Captures **multiplicative cost effects**

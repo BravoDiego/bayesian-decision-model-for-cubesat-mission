@@ -2,7 +2,9 @@
 ### A Bayesian Decision Model for CubeSat Mission Design
 
 **Author:** BRAVO Diego
+
 **Affiliation:** Lycée Saint-Guilhem / Hérault / FRANCE
+
 **Context:** ESA–CNES Student Poster Challenge 2026  
 
 ---
@@ -62,12 +64,12 @@ A dataset of approximately **~100 CubeSat missions** was manually constructed us
 
 ### 🔹Dsitribution of total Cost and Distribution of mission sizes
 <p align='center'>
-    <img src="./fig/cost_distribution_size_distribution.png" alt="Texte alternatif" width="300"/>
+    <img src="./fig/cost_distribution_size_distribution.png" alt="Texte alternatif" width="600"/>
 </p>
 
 ### 🔹 Cost vs Complexity across orbits
 <p align='center'>
-    <img src="./fig/evolution_of_cost_with_size.png" alt="Texte alternatif" width="300"/>
+    <img src="./fig/evolution_of_cost_with_size.png" alt="Texte alternatif" width="600"/>
 </p>
 
 👉 Key observation:
@@ -108,7 +110,7 @@ A **Bayesian log-normal regression model** is used to estimate mission cost.
 ## 📊 7. Parameter Analysis
 
 <p align='center'>
-    <img src="./fig/impact_of_parameters_on_final_cost.png" alt="Texte alternatif" width="300"/>
+    <img src="./fig/impact_of_parameters_on_final_cost.png" alt="Texte alternatif" width="600"/>
 </p>
 
 ### 🔹 Key findings:
@@ -142,7 +144,7 @@ Orbit introduces strong structural constraints:
 ## 📉 9. Predictive Behavior
 
 <p align='center'>
-    <img src="./fig/predictive_analysis_by_destination.png" alt="Texte alternatif" width="300"/>
+    <img src="./fig/predictive_analysis_by_destination.png" alt="Texte alternatif" width="600"/>
 </p>
 
 ### Observations:
@@ -281,8 +283,8 @@ Fortescue, P., Swinerd, G., & Stark, J. (2011). *Spacecraft systems engineering*
 | Visualization | Description |
 |--------------|------------|
 | <img src="./fig/evolution_of_cost_with_size.png" width="250"/> | **Cost vs Size (global)**<br>Shows the overall scaling of cost with platform size. |
-| <img src="./fig/validation_r_squared.png.png" width="250"/> | **Prediction vs Actual (log-log)**<br>Evaluates how well the model reproduces real mission costs. |
-| <img src="./fig/residual_analysis.png.png" width="250"/> | **Residual analysis (log space)**<br>Assesses model errors and potential biases. |
+| <img src="./fig/validation_r_squared.png" width="250"/> | **Prediction vs Actual (log-log)**<br>Evaluates how well the model reproduces real mission costs. |
+| <img src="./fig/residual_analysis.png" width="250"/> | **Residual analysis (log space)**<br>Assesses model errors and potential biases. |
 
 
 ---

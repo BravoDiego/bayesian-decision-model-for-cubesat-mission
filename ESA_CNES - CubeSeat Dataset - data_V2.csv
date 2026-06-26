@@ -1,0 +1,90 @@
+id,Project,Size in U,Units,Coût Total (USD),Is_Commercial,Incl_Launch,Année (Launch),Mission_Type,Organization,Manufactured (AIVT) by
+0,AeroCube-15,3,1,"4,1",0,1,2022,Technology Demo,Aerospace Corporation,In-house
+1,AISTECHSAT (DANU) 2U,2,1,"0,23",1,0,2019,Earth Observation,Aistech,GomSpace
+2,Amber,6,2,"5,75",1,1,2024,Communications,Horizon Technologies,AAC Clyde Space
+3,IOD Mission 3,6,4,"2,145",1,0,2023,Technology Demo,Horizon Technologies,AAC Clyde Space
+4,BlackCAT,6,1,"5,8",1,0,2024,Science/Astronomy,Pennsylvania State University (Penn State),NanoAvionics
+5,BRO,6,6,"4,2",1,0,2019,Military/Defense,Unseenlabs,GomSpace
+6,Buccaneer,6,1,"2,5",1,0,2017,Military/Defense,Australian Defence Science and Technology Organisation,Inovor
+7,CTOS,8,1,"2,5",0,0,2024,Earth Observation,Galaxia,In-house
+8,CatSat,6,1,"0,45",0,0,2024,Technology Demo,University of Arizona,In-house
+9,Exoterra CubeSat,12,1,2,0,0,2024,Technology Demo,Exoterra Resource,In-house
+10,CUTE,6,1,"5,5",0,1,2021,Science/Astronomy,University of Colorado Boulder,In-house
+11,DAILI,6,1,"3,2",0,0,2022,Science/Astronomy,Aerospace Corporation,In-house
+12,AISTECHSAT (DANU) 2U,2,10,"1,57",1,0,2021,Earth Observation,Aistech,GomSpace
+13,Deorbitsail,3,1,"3,2",1,1,2015,Technology Demo,EU FP7 consortium,SSTL
+14,Diamond 6U (Sky and Space Global),6,8,"5,95",1,0,2019,Communications,Sky and Space,GomSpace
+15,DOVER,3,1,,1,0,2023,Technology Demo,RHEA Group,Open Cosmos
+16,DUPLEX,6,1,"1,7",1,0,2023,Technology Demo,CU Aerospace,NearSpace Launch
+17,E.T.PACK DMM & EEM,12,1,"5,5",0,0,2024,Technology Demo,Universidad Carlos III de Madrid,?
+18,Edison,8,1,"0,96",1,1,2024,Technology Demo,Space Inventor,Space Inventor
+19,EIRSAT-1,2,1,"1,5",0,0,2023,Science/Astronomy,University College Dublin,In-house
+20,EPICHyper,6,2,"12,1",1,0,2024,Earth Observation,AAC Clyde Space,AAC Clyde Space
+21,ET-SMART-RSS,6,1,"1,5",1,0,2020,Earth Observation,Ethiopian Space Science & Technology Institute (ESSTI),Smart Satellite
+22,FACSAT,6,1,"0,77",1,0,2018,Earth Observation,Colombian Air Force,GomSpace
+23,Faraday-1,6,1,"6,664",0,0,2020,Technology Demo,In-Space Missions,In-house
+24,GEMS (Orbital Micro Systems),6,1,"0,785",1,0,2019,Earth Observation,Orbital Micro Systems,AAC Clyde Space
+25,GOMX-5,8,1,2,1,0,2024,Technology Demo,GomSpace,GomSpace
+26,HAMMER (IOD6),6,1,"4,08",1,0,2024,Earth Observation,Open Cosmos,Open Cosmos
+27,Hellenic Space Dawn,8,1,"4,28",0,0,2026,Earth Observation,EMTech Space,?
+28,HERMES-SP,3,6,"3,95",0,1,2025,Science/Astronomy,INAF (National Institute for Astrophysics),Politecnico di Milano
+29,Hyperion 1,12,1,"3,85",1,0,2023,Earth Observation,Inovor,Inovor
+30,Infante,16,1,10,0,0,2018,Earth Observation,Tekever,In-house
+31,InspireSAT,12,1,"2,15",0,0,2022,Science/Astronomy,StarSpec,?
+32,Intuition-1,6,1,"1,85",1,1,2023,Earth Observation,KP Labs,AAC Clyde Space
+33,Io-1,4,1,"2,5",1,1,2026,Science/Astronomy,Iota Technology,AAC Clyde Space
+34,Startical,16,3,"15,66",1,1,2025,Communications,Startical,GomSpace
+35,GEMS (Orbital Micro Systems),3,4,"1,88",1,0,2019,Earth Observation,Orbital Micro Systems,AAC Clyde Space
+36,IonSat,6,1,"1,624",0,1,2024,Technology Demo,Ecole Polytechnique,In-house
+37,Juventas,6,1,13,1,0,2024,Deep Space,ESA (European Space Agency),GomSpace
+38,Kelpie,3,2,"5,9",1,1,2023,Communications,AAC Clyde Space,AAC Clyde Space
+39,TARS (Kepler),6,1,"0,88",1,1,2022,Communications,Kepler Communications,AAC Clyde Space
+40,Kleos Space - Polar Vigilance Mission (KSF1),6,4,"2,5",1,0,2021,Military/Defense,Kleos Space,ISISpace
+41,Kleos Scouting Mission (KSM1),6,4,"2,83",1,0,2019,Military/Defense,Kleos Space,GomSpace
+42,KSS-BOBCAT,6,1,"1,6",1,0,2022,Technology Demo,Kawa Space,AAC Clyde Space
+43,KuwaitSat- 1,2,1,"0,97",1,0,2023,Earth Observation,Kuwait University,NanoAvionics
+44,LLITED,1.5,2,"2,52",0,1,2022,Science/Astronomy,Aerospace Corporation,In-house
+45,Lusiada (LusoSpace),8,11,"5,37",0,0,2024,Communications,LusoSpace,In-house
+46,M-ARGO,12,1,"0,45",1,0,2024,Deep Space,ESA (European Space Agency),GomSpace
+47,MACSAT,6,1,"2,4",1,0,2023,Communications,OQ Technology,NanoAvionics
+48,MANTIS (US),16,1,"8,5",0,0,2024,Earth Observation,University of Colorado Boulder,In-house
+49,MarCO,6,2,"18,5",0,1,2018,Deep Space,NASA Jet Propulsion Laboratory,In-house
+50,MH-1 (AEROS),3,1,"3,02",1,0,2024,Earth Observation,CEiiA,?
+51,MIR-SAT1,1,1,"0,405",1,1,2021,Technology Demo,Mauritius Research Council,AAC Clyde Space
+52,MOBIUS,3,1,"2,8",0,0,2024,Technology Demo,Galaxia,In-house
+53,NanoMagSat,16,1,"37,37",1,0,2026,Science/Astronomy,Open Cosmos,Open Cosmos
+54,NARSSCube-2,1,1,"0,06",0,0,2019,Earth Observation,National Authority for Remote Sensing and Space Sciences (NARSS),In-house
+55,NEPTUNO,3,1,"2,8",0,1,2024,Earth Observation,Elecnor Deimos,In-house
+56,NSLSat,6,1,"1,5",1,1,2019,Communications,BeetleSat (NSLComm),AAC Clyde Space
+57,OPS-SAT,3,1,"2,66",0,0,2019,Technology Demo,ESA (European Space Agency),Graz University of Technology
+58,OPS-SAT VOLT,16,1,"2,5",1,0,2025,Technology Demo,Craft Prospect,AAC Clyde Space
+59,ORCA-8,6,1,"4,5",0,0,2024,Technology Demo,DARPA,In-house
+60,Outernet 1U,1,3,"1,25",1,0,2017,Communications,Outernet,AAC Clyde Space
+61,PEARLS (Sky and Space Global),8,8,"5,95",1,0,2025,Communications,Sky and Space,GomSpace
+62,Phasma,3,1,"2,16",0,0,2024,Military/Defense,Libre Space Foundation,In-house
+63,PIAST,6,1,18,1,0,2024,Military/Defense,Poland’s Armed Forces,Creotech
+64,PIXL-1,3,1,"0,56",1,0,2021,Technology Demo,DLR (German Aerospace Center),GomSpace
+65,PolSIR,12,1,37,1,0,2024,Science/Astronomy,Vanderbilt University,Blue Canyon
+66,PREFIRE,6,1,33,0,0,2024,Science/Astronomy,University of Wisconsin,?
+67,RACE (ESA),6,2,"0,45",1,0,2024,Technology Demo,ESA (European Space Agency),GomSpace
+68,SCOUT-1 (EPS-MACCS),12,1 orientations,"25,92",1,0,2023,Science/Astronomy,GomSpace,GomSpace
+69,SeaHawk,3,2,"1,68",1,0,2018,Earth Observation,University of North Carolina Wilmington,AAC Clyde Space
+70,SEAM,3,1,3,1,1,2017,Science/Astronomy,Royal Institute of Technology (KTH),GomSpace
+71,SOAR,3,1,"6,15",1,0,2021,Science/Astronomy,University of Manchester,GomSpace
+72,SpIRIT,6,1,"4,76",1,0,2023,Science/Astronomy,University of Melbourne,Inovor
+73,SPRITE,12,1,4,0,0,2024,Science/Astronomy,University of Colorado Boulder,In-house
+74,SROC,12,1,"4,7",1,0,2024,Technology Demo,Politecnico di Torino,Terran Orbital
+75,SULIS,12,1,105,0,1,2025,Science/Astronomy,Northumbria University,?
+76,SunRISE,6,6,"62,6",0,1,2025,Deep Space,NASA Jet Propulsion Laboratory,Utah State University Space Dynamics Laboratory
+77,SWARM-EX,3,3,4,0,0,2024,Science/Astronomy,Olin College,In-house
+78,TEMPEST-D,6,1,"8,2",1,0,2018,Earth Observation,Colorado State University,Blue Canyon
+79,Tiger-2,6,1,"2,4",1,0,2021,Communications,OQ Technology,NanoAvionics
+80,Tiger-4,6,1,"2,4",1,0,2022,Communications,OQ Technology,NanoAvionics
+81,Tiger-7,6,1,"2,4",1,0,2023,Communications,OQ Technology,NanoAvionics
+82,Tiger-8,6,1,"2,4",1,0,2023,Communications,OQ Technology,NanoAvionics
+83,UKube-1,3,1,1,1,0,2014,Technology Demo,UK Space Agency,AAC Clyde Space
+84,VPM,6,1,"4,5",0,1,2020,Science/Astronomy,Air Force Research Laboratory (AFRL),In-house
+85,WindCube,6,1,"6,5",0,0,2024,Earth Observation,National Center for Atmospheric Research (NCAR),In-house
+86,xSPANCION,6,1,"12,1",1,0,2024,Technology Demo,AAC Clyde Space,AAC Clyde Space
+87,XVI,12,1,10,1,1,2024,Military/Defense,Viasat,Blue Canyon
+88,Ymir,3,1,"1,94",1,0,2023,Technology Demo,"AOS (AAC Clyde Space, Saab, Orbcomm)",AAC Clyde Space

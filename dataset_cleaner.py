@@ -14,14 +14,14 @@ def calculate_clean_complexity(row):
     base_scores = {
         'Technology Demo': 1.0,
         'Communications': 1.3,
-        'Earth Observation': 1.6,
-        'Military/Defense': 2.1,
-        'Science/Astronomy': 2.1
+        'Earth Observation': 1.8,
+        'Military/Defense': 2.7,
+        'Science/Astronomy': 2.7
     }
     
     # Si le type est "Deep Space", on le traite comme une mission scientifique complexe
     if mission == 'Deep Space':
-        score = 2.1
+        score = 3.0
     else:
         score = base_scores.get(mission, 1.4) # 1.4 par défaut si inconnu
     
@@ -32,11 +32,12 @@ def calculate_clean_complexity(row):
     academic = ['university', 'ecole', 'politecnico', 'college', 'instit', 'in-house']
     
     if any(agency in org or agency in mfg for agency in agencies):
-        score += 0.4
+        score += 0.5
     elif any(acad in org or acad in mfg for acad in academic):
         # On vérifie que ce n'est pas un projet universitaire mais clé en main chez un industriel
         if 'gomspace' not in mfg and 'clyde' not in mfg and 'nanoavionics' not in mfg:
             score -= 0.2
+        
         
     return round(score, 2)
 

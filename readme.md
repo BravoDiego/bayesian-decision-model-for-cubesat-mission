@@ -9,6 +9,28 @@
 
 ---
 
+## 📌 Table of Contents
+* [🧭 1. Project Overview](#-1-project-overview)
+* [🎯 2. Objective](#-2-objective)
+* [🛰️ 3. Dataset Construction](#%EF%B8%8F-3-dataset-construction)
+* [📈 4. Exploratory Data Analysis](#-4-exploratory-data-analysis)
+* [🧠 5. Model Description](#-5-model-description)
+* [⚙️ 6. Model Inputs](#%EF%B8%8F-6-model-inputs)
+* [📊 7. Parameter Analysis](#-7-parameter-analysis)
+* [🌍 8. Role of Orbit](#-8-role-of-orbit)
+* [📉 9. Predictive Behavior](#-9-predictive-behavior)
+* [💰 10. Decision Scenario: 5M$ Budget](#-10-decision-scenario-5m-budget)
+* [📏 11. Model Validation](#-11-model-validation)
+* [📌 12. Key Insights](#-12-key-insights)
+* [⚠️ 13. Limitations](#%EF%B8%8F-13-limitations)
+* [🚀 14. Perspectives](#-14-perspectives)
+* [🔗 15. Reproducibility](#-15-reproducibility)
+* [🧩 16. Additional Visualizations](#-16-additional-visualizations)
+* [📚 17. References](#-17-references)
+* [📬 Contact](#-contact)
+
+---
+
 ## 🧭 1. Project Overview
 
 CubeSat missions exhibit significant cost variability, ranging from less than 0.1M$ to over 100M$.  
@@ -35,7 +57,7 @@ To address this, a **Bayesian log-normal regression model** is developed and use
 
 ## 🛰️ 3. Dataset Construction
 
-A dataset of approximately **~100 CubeSat missions** was manually constructed using public sources.
+A dataset of approximately **~90 CubeSat missions** was manually constructed using public sources.
 
 ### 📊 Features included ans used in the model:
 - **Platform size** (1U to 16U)
@@ -50,13 +72,31 @@ A dataset of approximately **~100 CubeSat missions** was manually constructed us
 - Handling missing values
 - Manual curation of mission characteristics
 
-### 📌 Notes:
+### 📌 Note:
 - GEO and Deep Space missions were grouped due to limited data and similar cost structures
-- A **complexity index** was defined to approximate technological difficulty:
-  - Tech demo → ~1.2  
-  - Earth observation → ~1.5  
-  - Science → ~2.0–2.3  
-  - Deep Space → >3  
+
+### ⚙️ Complexity Index: `calculate_clean_complexity(row)`
+**File location:** `src/dataset_cleaner.py`  
+**Objective:** Computes a standardized numerical complexity score (starting at `1.0`) based on payload objectives and institutional overhead.
+
+#### 1. Payload & Mission Type Bonus
+The script checks the `Mission_Type` string and adds a fixed modifier to the baseline score:
+* **Technology Demo:** `+0.0`
+* **Communications:** `+0.3`
+* **Earth Observation:** `+0.5`
+* **Military/Defense:** `+0.7`
+* **Science/Astronomy:** `+1.0`
+* **Deep Space / GEO:** `+2.0` *(grouped due to similar radiation/shielding constraints and sparse data)*
+
+#### 2. Institutional & Manufacturing Adjustments
+The script scans `Organization` and `Manufactured (AIVT) by` to adjust for quality assurance overhead and labor costs:
+
+* **Space Agencies & Military** (`nasa`, `esa`, `cnes`, `darpa`, `dlr`, `air force`, `defence`):
+  * `+0.7` if combined with a "Science/Astronomy" mission.
+  * `+0.5` for any other mission type.
+* **Academic Institutions** (`university`, `ecole`, `politecnico`, `college`, `instit`, `in-house`):
+  * `-0.2` discount due to educational free labor and reduced documentation.
+  * **Exception:** The `-0.2` discount is **canceled** if the platform is outsourced to a commercial turnkey manufacturer (`gomspace`, `clyde`, `nanoavionics`).
 
 ---
 
@@ -120,7 +160,7 @@ $\ln(\text{Cost}) = \alpha_{\text{orbit}} + \beta_{\text{size}} \cdot \text{Size
 
 👉 Example:
 
-> +1 level of complexity → cost ×2.5 (on average)
+> +1 level of complexity → cost ×2.0 (on average)
 
 ---
 
@@ -169,10 +209,10 @@ A practical case study was conducted using a fixed budget of **5M$**.
 
 | Mission Type        | Orbit              | Estimated Cost (M$) | Feasible |
 |--------------------|-------------------|---------------------|----------|
-| Tech Demo (1.2)    | LEO               | 0.92 - 7.10           | ✅ Yes   |
-| Earth Obs (1.5)    | SSO               | 1.10 - 8.50           | ⚠️ Limited |
-| Science (2.2)      | GEO / Deep Space  | 1.47 - 11.37           | ❌ No    |
-| Deep Space (3.2+)  | GEO / Deep Space  | 3.68 - 28.32           | ❌ No    |
+| Tech Demo (1.2)    | LEO               | 1.15 - 8.62          | ✅ Yes   |
+| Earth Obs (1.5)    | SSO               | 1.58 - 11.85           | ⚠️ Limited |
+| Science (2.2)      | GEO / Deep Space  | 1.96 - 14.76           | ❌ No    |
+| Deep Space (3.2+)  | GEO / Deep Space  | 5.12 - 38.51           | ❌ No    |
 
 👉 Interpretation:
 - Low-complexity missions are feasible under tight budgets  
@@ -188,7 +228,7 @@ To evaluate the reliability of the probabilistic predictions, we measure how man
 
 Using a ±2σ interval (≈95% confidence for a log-normal distribution):
 
-> **97.8% of observed mission costs fall within predicted bounds**
+> **97.6% of observed mission costs fall within predicted bounds**
 
 👉 Interpretation:
 - The model provides **realistic uncertainty estimates**
@@ -217,7 +257,7 @@ as the objective is not only predictive accuracy but also **uncertainty quantifi
 
 ### 🔹 Key takeaway
 
-The model should be interpreted as a:
+This model should be interpreted as a:
 
 > **Decision-support tool with calibrated uncertainty**,  
 rather than a precise cost prediction system.
@@ -234,7 +274,7 @@ rather than a precise cost prediction system.
 
 ## ⚠️ 13. Limitations
 
-- Limited dataset (~100 missions)  
+- Limited dataset (~90 missions)  
 - Few Deep Space observations  
 - Complexity is a **constructed proxy**  
 - Simplified model (no subsystem-level detail)  
@@ -262,21 +302,7 @@ All data, code, and analysis are available in this repository.
 
 ---
 
-## 📚 16. References
-
-European Space Agency. (2023). *CubeSat missions and cost analysis*. ESA Publications.
-
-Centre National d'Études Spatiales. (2022). *Nano-satellite mission reports*. CNES.
-
-Swartwout, M. (2013). The first one hundred CubeSats: A statistical look. *Journal of Small Satellites*, 2(2), 213–233.
-
-NASA. (2020). *Small spacecraft cost estimation handbook*. NASA Technical Reports.
-
-Kulu, Erik. « CubeSat Tables ». Nanosats Database, https://www.nanosats.eu/tables.html. Accessed on April 23, 2026.
-
----
-
-## 🧩 17. Additional Visualizations
+## 🧩 16. Additional Visualizations
 
 | Visualization | Description |
 |--------------|------------|
@@ -289,6 +315,20 @@ Kulu, Erik. « CubeSat Tables ». Nanosats Database, https://www.nanosats.eu/t
 
 👉 These visualizations are not included in the poster for clarity,  
 but provide deeper insight into model performance and limitations.
+
+---
+
+## 📚 17. References
+
+European Space Agency. (2023). *CubeSat missions and engineering support*. [ESA Technology Publications](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/CubeSats).
+
+Centre National d'Études Spatiales. (2022). *Nano-satellite and small mission engineering*. [CNES Technologie by Nanolab Academy](https://cnes.fr/projets/nanolab-academy/plateforme-seed-projets).
+
+Swartwout, M. (2014). The first one hundred CubeSats: A statistical look. *Proceedings of the AIAA/USU Conference on Small Satellites*. [Direct Access PDF](https://jossonline.com/storage/2021/08/0202-Swartwout-The-First-One-Hundred-Cubesats.pdf).
+
+NASA, JPL, California Institute of Technology. (2020). *NASA and Smallsat Cost Estimation Overview and Model Tools*. NASA Technical Reports Server. [Direct Access Document](https://www.nasa.gov/wp-content/uploads/2020/05/saing_nasa_and_smallsat_cost_estimation_overview_and_model_tools_s3vi_webinar_series_10_jun_2020.pdf).
+
+Kulu, Erik. « CubeSat Tables ». Nanosats Database, https://www.nanosats.eu/tables.html. Accessed on April 23, 2026.
 
 ---
 

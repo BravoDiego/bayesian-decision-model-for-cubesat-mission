@@ -102,7 +102,7 @@ The script scans `Organization` and `Manufactured (AIVT) by` to adjust for quali
 
 ## 📈 4. Exploratory Data Analysis
 
-### 🔹Dsitribution of total Cost and Distribution of mission sizes
+### 🔹Distribution of total Cost and Distribution of mission sizes
 <p align='center'>
     <img src="./fig/cost_distribution_size_distribution.png" alt="Texte alternatif" width="600"/>
 </p>
@@ -309,6 +309,7 @@ All data, code, and analysis are available in this repository.
 | <img src="./fig/evolution_of_cost_with_size.png" width="250"/> | **Cost vs Size (global)**<br>Shows the overall scaling of cost with platform size. |
 | <img src="./fig/validation_r_squared.png" width="250"/> | **Prediction vs Actual (log-log)**<br>Evaluates how well the model reproduces real mission costs. |
 | <img src="./fig/residual_analysis.png" width="250"/> | **Residual analysis (log space)**<br>Assesses model errors and potential biases. |
+| <img src="./fig/prediction_with_uncertainty_bounds.png" width="250"/> | **Prediction with Uncertainty Bounds**<br>Compares predicted vs. actual costs on a log-log scale with a $\pm1\sigma$ multiplicative error band to show model coverage. |
 
 
 ---
